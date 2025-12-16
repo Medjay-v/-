@@ -1,0 +1,8 @@
+model:
+    latent_dim: 16
+    time_dim: 256
+    hr_path: './dataset/rss_data.npy'
+    epoch: 100
+    beta_schedule: "cosine"
+    timesteps: 1000
+    num_embedding: 1024
